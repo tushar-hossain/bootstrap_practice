@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- scrollspy -->
+    <h1 class="bg-secondary text-center text-white p-2 mt-2">scrollspy</h1>
+      
+    <div class="container">
+     
+        <nav class="navbar sticky-top" id="navbar">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a class="nav-link" href="#heading1">First</a></li>
+                <li class="nav-item"><a class="nav-link" href="#heading2">Second</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#heading3">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">action</li>
+                        <li class="dropdown-item">Method</li>
+                        <li class="dropdown-item">Item</li>
+                    </ul>
+                </li>
+            </ul>            
+        </nav>
+    </div> 
+
+    <div data-bs-target="#navbar" data-bs-spy="scroll">
+            <h5 id="heading1">Heading1</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci debitis rem exercitationem ut vitae repellendus? Incidunt, est voluptas, deleniti voluptatibus recusandae ducimus asperiores eligendi quaerat dolores, placeat voluptatem? Recusandae!</p>
+            <h5 id="heading2">Heading2</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci debitis rem exercitationem ut vitae repellendus? Incidunt, est voluptas, deleniti voluptatibus recusandae ducimus asperiores eligendi quaerat dolores, placeat voluptatem? Recusandae!</p>
+            <h5 id="heading3">Heading3</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci debitis rem exercitationem ut vitae repellendus? Incidunt, est voluptas, deleniti voluptatibus recusandae ducimus asperiores eligendi quaerat dolores, placeat voluptatem? Recusandae!</p>
+            <h5>Heading4</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci debitis rem exercitationem ut vitae repellendus? Incidunt, est voluptas, deleniti voluptatibus recusandae ducimus asperiores eligendi quaerat dolores, placeat voluptatem? Recusandae!</p>
+    </div>   
+    
+
+
+
+
+    <br>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

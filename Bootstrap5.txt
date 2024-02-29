@@ -1,0 +1,81 @@
+  
+   www.bootstrap.com
+  
+        Utilities
+
+1. background color
+2. Border- addition, subtraction, width, color, radius, image, opacity
+3. color- text color, opacity
+4. Display- none, inline, inline-block, block, flex
+5. display- print, screen size
+6. Flex
+7. Justify content and align items
+8. align self & fill and grow shrink
+9. margin align items wrap or order
+10. float
+11. Interactions- 1. text selection 2. Pointer events
+12. opacity
+13. overflow- (1.overflow-x 2. overflow-y note: problem)
+14. Position- 1.Position values 2. Arrange elements 3.Center elements
+15. shadow
+16. Sizing- 1.Relative to the parent 2.Relative to the viewport
+17. Spacing- 1.Margin and padding 2.Horizontal centering 3.Negative margin 4.Gap // 5.row-gap 6.column-gap
+18. Text- 1.Text alignment 2.Text wrapping and overflow 3.Word break 4.Text transform 5.Font size 6.Font weight and italics 7.Line height 8.Monospace 9.Reset color 10.Text decoration 11.
+19. Vertical alignment
+20. Visibility
+21. Z-index 
+22. Link 
+23. Object fit 
+
+	Helpers
+
+1. Clearfix
+2. Color and background  1.color 2.With components or Card
+3. Colored links  1.Link colors (2.Link utilities//incomplete)
+4. Focus ring
+5. Icon link
+6. Position 
+7. Ratios
+8. Stacks
+9. Stretched link
+10.Text truncation
+11.Vertical rule
+12.Visually hidden
+
+
+     Components
+
+1. Accordion (problem)
+2. Alerts- 1.Alter Color 2.Link color 3.Additional content 4.Live example Alter dismiss
+3. Badges 
+4. Breadcrumb
+5. Buttons
+6. Button group
+7. Cards
+8. Carousel //Imcomplete
+9. Close button
+10.Collapse
+11.Dropdowns    1.Forms 2.navbar
+12.Navbar
+13.Offcanvas
+14.Pagination
+15.Popovers
+16.Scrollspy
+17.Toasts
+18.Tooltips
+19.Progress
+20.Placeholder
+21. List-group
+
+     Forms
+
+1. Forms Overview
+2. Form controls
+3. Select
+4. Checks and radios
+5. Range
+6. Input group
+7. Floating labels
+8. Layout
+9. Validation
+

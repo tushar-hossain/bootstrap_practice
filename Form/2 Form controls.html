@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS cdn link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Form controls -->
+    <h2 class="text-bg-secondary mt-2 text-center">Form controls</h2>
+    
+    
+    <div class="container">
+        <form action="#">
+            <div>
+                <label class="form-label" for="email">Email address</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mt-3">
+                <label class="form-label" for="text">Example textarea</label>
+                <textarea class="form-control"  name="text" id="text" cols="10" rows="3"></textarea>
+            </div>
+        </form>
+    </div><br>
+    
+    <!-- Sizing -->
+
+    <div class="container">
+        <form action="#">
+            <input class="form-control form-control-lg" type="text" name="" id="" placeholder="form-control-lg">
+            <input class="form-control mt-3" placeholder="Defult input" type="text" name="" id="">
+            <input class="form-control form-control-sm mt-3" placeholder="form-control-sm" type="text" name="" id="">
+        </form>
+    </div><br>
+
+
+    <!-- Readonly -->
+
+    <div class="container">
+        <form action="#">
+            <div>
+                <input class="form-control" type="text" name="" id="" value="Readonly input here..." readonly>
+            </div>
+        </form>
+    </div><br>
+
+
+    <!-- Readonly plain text -->
+
+    <div class="container">
+        <form action="#">
+            <div>
+                <label class="form-label" for="email2">Email</label>
+                <input class="form-control-plaintext" type="eamil" name="email2" id="email2" placeholder="email@example.com" readonly>
+            </div>
+            <div>
+                <label class="form-label" for="pass2">Password</label>
+                <input class="form-control" type="password" name="pass2" id="pass2">
+            </div>
+        </form>
+    </div><br>
+
+    <!-- File input  -->
+    <div class="container">
+        <form action="#">
+            <div>
+                <input class="form-control" type="file">
+            </div>
+        </form>
+    </div><br>
+    <div class="container">
+        <form action="#">
+            <div>
+                <input class="form-control form-control-lg" type="file">
+            </div>
+        </form>
+    </div><br>
+
+    <!-- Color -->
+    <div class="container">
+        <form action="#">
+            <div>
+                <input class="form-control form-control-color" type="color" title="Chose Color">
+            </div>
+        </form>
+    </div><br>
+
+    <!-- Datalists -->
+
+    <div class="container">
+        <form action="#">
+            <label for="label">Datalist example</label>
+            <input class="form-control mt-2" list="details" name="label" id="label">
+            
+            <datalist id="details">
+                <option value="San Francisco">San Francisco</option>
+                <option value="New York">New York</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+            </datalist>
+
+        </form>
+    </div><br>
+
+
+    <!-- JavaScript cdn link -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

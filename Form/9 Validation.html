@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS cdn link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Validation -->
+    <h2 class="text-bg-secondary mt-2 text-center">Validation</h2>
+
+    <div class="container">
+        <form class="bg-light border p-2 needs-validation" novalidate action="#">
+
+            <div class="row g-3">
+
+                <div class="col-md-4">
+                    <label class="form-label" for="forst">First name</label>
+                    <input class="form-control" type="text" name="forst" id="forst" placeholder="First name" required>
+                    <div class="valid-feedback">
+                        Looks Good.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" for="last">Last name</label>
+                    <input class="form-control" type="text" name="last" id="last" placeholder="Last name" required>
+                    <div class="valid-feedback">
+                        Looks Good.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" for="user">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" name="user" id="user" placeholder="Username" required>
+                        <div class="valid-feedback">
+                            Looks Good.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label" for="city">City</label>
+                    <input class="form-control" type="text" name="city" id="city" placeholder="Your city" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                    <div class="valid-feedback">
+                        Looks Good.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" for="state">State</label>
+                    <select class="form-control form-select" name="state" id="state" required>
+                        <option value="" selected>Choose</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                    <div class="valid-feedback">
+                        Looks Good.
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label" for="zip">Zip</label>
+                    <input class="form-control" type="text" name="zip" id="zip" placeholder="Code" required>
+                    <div class="invalid-feedback">
+                        Please select a valid zip.
+                    </div>
+                    <div class="valid-feedback">
+                        Looks Good.
+                    </div>
+                </div>
+                <div>
+                    <input class="form-check-input" type="checkbox" name="box" id="box" required>
+                    <label class="form-check-label" for="box">Agree to terms and condition</label>
+                    <div class="invalid-feedback">Please select a valid zip.</div>
+                    <div class="valid-feedback">Looks Good.</div>
+                </div>
+                <div>
+                    <input class="btn btn-primary" type="submit" value="Submit form">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <br>
+    <!-- JavaScript cdn link -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- form js code -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+            })()
+    </script>
+</body>
+</html>

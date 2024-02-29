@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css Cdn -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Clearfix -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Clearfix</h1>
+    
+    <div class="container bg-light clearfix">
+        <button class="btn btn-primary float-start">Accepted</button>
+        <button class="btn btn-danger float-end">Rejected</button>
+    </div><br>
+    
+    <!-- Color and background -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Color and background</h1>
+
+    <!-- color -->
+    <div class="container">
+        <div class="bg-primary">primary</div>
+        <div class="bg-secondary">secondary</div>
+        <div class="bg-success">success</div>
+        <div class="bg-danger">danger</div>
+        <div class="bg-warning">warning</div>
+        <div class="bg-info">info</div>
+        <div class="bg-light">light</div>
+        <div class="text-bg-dark">dark</div>
+        <div class="bg-white">white</div>
+    </div><br>
+
+    <!-- bacground component -->
+
+    <div class="container">
+        <span class="text-bg-primary badge">primary</span>
+        <span class="bg-info badge">info</span>
+    </div><br>
+
+    <!-- Card -->
+
+    <div class="container w-50">
+        <div class="card text-bg-primary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <div class="card text-bg-info w-50 mx-auto">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-footer">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- Colored links -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Colored links</h1>
+
+    <div class="container">
+        <a href="" class="link-primary">primary</a>
+        <a href="" class="link-secondary">secondary</a>
+        <a href="" class="link-success">success</a>
+        <a href="" class="link-danger">danger</a>
+        <a href="" class="link-warning">warning</a>
+        <a href="" class="link-info">info</a>
+        <a href="" class="link-light">light</a>
+        <a href="" class="link-dark">dark</a>
+    </div><br>
+
+    <!-- Position -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Position</h1>
+
+    <!-- fixed-top -->
+    <!-- <div class="container fixed-top">
+        <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div><br> -->
+    <!-- fixed-bottom -->
+    <!-- <div class="container fixed-bottom">
+        <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div><br> -->
+    <!-- sticky-top -->
+    <!-- <div class="container sticky-top">
+        <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div><br> -->
+    <!-- sticky-bottom -->
+    <!-- <div class="container sticky-bottom">
+        <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div><br> -->
+
+    <!-- Ratios -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Ratios</h1>
+
+    <div class="container">
+        <div class="ratio ratio-21x9">
+            <iframe src="https://www.youtube.com/embed/fYV98w6W6HU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div><br>
+
+    <!-- Stacks -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Stacks</h1>
+    
+    <br>
+    
+    <h1 class="mb-2 bg-secondary text-white text-center">Vertical</h1>
+
+    <div class="container bg-light ">
+        <div class="border border-2 vstack gap-3">
+            <div class="bg-primary">Box-1</div>
+            <div class="bg-secondary">Box-2</div>
+            <div class="bg-warning">Box-3</div>
+        </div>
+    </div><br>
+    
+
+    <h1 class="mb-2 bg-secondary text-white text-center">Horizontal</h1>
+
+    <div class="container bg-light">
+        <div class="border border-2 hstack gap-5">
+            <div class="bg-primary">Box-1</div>
+            <div class="bg-secondary">Box-2</div>
+            <div class="bg-warning">Box-3</div>
+        </div>
+    </div><br>
+
+    <div class="container bg-light">
+        <div class="border border-2 hstack gap-sm-5">
+            <div class="bg-primary">Box-1</div>
+            <div class="bg-secondary">Box-2</div>
+            <div class="bg-warning">Box-3</div>
+        </div>
+    </div><br>
+
+
+    <h1 class="mb-2 bg-secondary text-white text-center">vertical rules</h1>
+
+    <div class="container bg-light">
+        <div class="p-2 border border-2 hstack gap-5">
+            <div class="bg-primary">Box-1</div>
+            <div class="bg-secondary">Box-2</div>
+            <div class="vr"></div>
+            <div class="bg-warning">Box-3</div>
+        </div>
+    </div><br>
+    
+    <!-- button -->
+
+    <div class="container vstack gap-3">        
+        <button class="btn btn-primary">Save changes</button>      
+        <button class="btn btn-outline-secondary">Cancel</button>
+    </div><br>
+
+
+    <div class="container">
+
+        <div class="hstack gap-3">
+            <input class="form-control" type="text" placeholder="Add your item here...">
+            <button class="btn btn-secondary">Submit</button>
+            <div class="vr"></div>
+            <button class="btn btn-outline-danger">Reset</button>
+        </div>
+    </div><br>
+
+
+    <!-- Stretched link -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Stretched link</h1>
+    
+    <div class="container w-50">
+        <div class="card">
+            <img class="card-img" src="images/tulip.jpg">
+            <div class="card-body">
+                <h5 class="card-title">This a tulip flower</h5>
+                <p class="crad-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="btn btn-primary stretched-link" href="https://unsplash.com/s/photos/tulip" target="_blank">View flower details</a>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container">
+
+
+        <div class="d-flex">
+            <img src="images/tulip.jpg">
+            <div class="card-body ms-3">
+                <h5>This a tulip flower</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati labore dolores vel placeat dicta delectus.</p>
+                <a class="stretched-link" href="">Lorem, ipsum dolor.</a>
+            </div>
+        </div><br>
+
+
+
+        <div class="container w-50">
+            <div class="card">
+            <img src="images/tulip.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="link-danger stretched-link" href="#">Some quick example text</a>
+                    <div class="bg-light">
+                        <p class="card-text">Some <a class="stretched-link" href="#">quick example text</a> to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+
+    <!-- Text truncation -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Text truncation</h1>
+    
+    <div class="container">
+        <p class="w-25 bg-primary text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, in iste praesentium incidunt vero ut.</p>
+        <span class="bg-success w-50 text-truncate d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+    </div><br>
+
+    <!-- Vertical rule -->
+    <h1 class=" mb-2 bg-secondary text-white text-center">Vertical rule</h1>
+      
+    <div class="container bg-light " style="height: 150px;">
+        <div class="vr h-100"></div>
+    </div><br>
+
+    <div class="container bg-light d-flex" style="height: 150px;">
+        <div class="vr"></div>
+    </div><br>
+
+    <div class="container ">
+        <div class="bg-light p-2 d-flex gap-3 border">
+            <div class="bg-secondary me-auto">box 1</div>
+            <div class="bg-success">box 2</div>
+            <div class="vr bg-danger"></div>
+            <div class="bg-warning">box 3</div>
+        </div>
+    </div>
+
+
+    <!-- Visually hidden -->
+    <h1 class="mb-2 bg-secondary text-white text-center">Visually hidden</h1>
+
+    <div class="container">
+        <h1 class="visually-hidden">Hellow world!</h1>
+        <h3 class="visually-hidden-focusable">Hellow world!</h3>
+    </div>
+
+
+    <br>
+    <!-- JavaScript Cdn -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Toasts -->
+    <h1 class="bg-secondary text-center text-white p-2 mt-2">Toasts</h1>
+      
+    <div class="container">
+        <button id="Toast" class="btn btn-primary">Toasts</button>
+        <div class="toast" id="Toast1">
+            <div class="toast-container">
+                <div class="toast-header">
+                    <h5>Toasts</h5>
+                </div>
+                <div class="toast-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, id.</p>
+                </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <br>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const toastTrigger = document.getElementById('Toast')
+        const toastLiveExample = document.getElementById('Toast1')
+        if (toastTrigger){
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+                })
+        }
+    </script>
+</body>
+</html>

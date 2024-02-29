@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap Css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Popovers -->
+    <h1 class="bg-secondary text-center text-white p-2 mt-2">Popovers</h1> 
+     
+    <div class="container" style="margin: 100px auto;">
+        <button class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-title="Live demo" data-bs-content="Hey I'm here!" data-bs-placement="top">Click Me</button>
+    </div>
+
+    <div class="container">
+
+        <button class="btn btn-outline-success"
+        data-bs-toggle="popover"
+        data-bs-title="container"
+        data-bs-content="Hey I'm here!"
+        data-bs-trigger="hover"
+        >Popover</button>
+    </div>
+    
+
+
+
+
+    <br>
+    <!-- JavaScript bundle link -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
